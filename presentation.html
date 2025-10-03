@@ -3,40 +3,26 @@
 <head>
     <meta charset="UTF-8"> 
     <title> Presentation </title>
-    <style>
-    body {
-      background-color: #f5e4e4;
-      color: #000000;
-      font-family: Arial, sans-serif;
-    }
-    .centrer{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border: 2px solid black;
-    }
-    h1 {
-      color: #000000;
-      text-align: center;
-    }
-    h2 {
-      color: #000000;
-      text-align: center;
-    }
-    a {
-      color: #221e7b;
-      padding: 10px;
-      border-radius: 5px;
-    }
-  </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="images/photo_Léo_Denooz.jpeg" class="centrer" style="width: 20%; height: auto;"/> 
-    <h1 style="font-size: 20px; font-weight: bold;"> Etudiant en 1ère année du cycle ingenieur dans l'école d'ingénierie ESIEE Paris localisée à Noisy-le-Grand </h1>
-    <h2 style="font-size: 20px; font-weight: bold;"> Filière Informatique et Numérique </h2>
-    <a href="CV_DENOOZ_LEO.pdf" style="display: block; width: fit-content; margin: 0 auto;">
-        <img src="CV_DENOOZ_LEO.pdf" alt="Mon CV" style="font-size: 20px; font-weight: bold;">
-    </a>
-    <br><br><a href="index.html" style="font-size: 10px; font-weight: bold;"> Retour à l'accueil </a>
+    <img src="images/photo_Léo_Denooz.jpeg" class="image"/> 
+    <h1 class= "under_title" style="text-align: center;"> Etudiant en 1ère année du cycle ingenieur dans l'école d'ingénierie ESIEE Paris localisée à Noisy-le-Grand </h1>
+    <h2 class= "under_title" style="text-align: center;"> Filière Informatique et Numérique </h2>
+    <div style="text-align: center;">
+      <button type="button" id="button_CV">
+        <label for="button_CV"> Test de couleur </label>
+      </button><br><br>
+      <input type="checkbox" id="checkbox">
+        <label for="checkbox"> Quelque chose apparait </label>
+          <p div class="hidden"> Tadaaaaam </p>
+      <a href="CV_DENOOZ_LEO.pdf" class= "under_title"> Mon CV </a>
+    </div>
+    <br><br><a href="index.html"> Retour à l'accueil </a>
+    <div class= "container" >
+      <div style="background-color: red;"></div>
+      <div style="background-color: blue;"></div>
+      <div style="background-color: green;"></div>
+    </div>
 </body>
 </html>
